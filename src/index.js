@@ -11,19 +11,7 @@ const ease = (t) =>  t<.5 ? 2*t*t : -1+(4-2*t)*t;
 
 const sketch = (p5) => {
 
-    const Grid = (width) => {
-        let stepX, stepY;
-        createGrid()
-        const createGrid = () => {
-            for (let gridY = 0; gridY < height; gridY += stepY) {
-                for (let gridX = 0; gridX < width; gridX += stepX) {
-                    p5.fill(gridX, height - gridY, 100)
-                    p5.rect(gridX, gridY, stepX, stepY)
-                    
-                } 
-            }
-        }
-    }
+    
     // console.log(p5)
     
     const { width, height } = config
