@@ -1,0 +1,41 @@
+{
+    "name": "webpack-demo",
+    "version": "1.0.0",
+    "description": "A web project featuring Babel and Webpack 4",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "webpack --watch",
+        "start": "webpack-dev-server --mode development --open",
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production"
+    },
+    "keywords": [
+        "es6",
+        "boilerplate",
+        "babel",
+        "gsap",
+        "pixi",
+        "three.js"
+    ],
+    "author": "tobybarlhogun@gmail.com",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.6.1",
+        "css-loader": "^0.28.10",
+        "file-loader": "^1.1.11",
+        "style-loader": "^0.20.3",
+        "webpack": "^4.20.2",
+        "webpack-cli": "^2.0.12",
+        "webpack-dev-server": "^3.1.9"
+    },
+    "dependencies": {
+        "dat.gui": "^0.7.3",
+        "gsap": "^1.20.4",
+        "p5": "^0.7.2",
+        "pixi.js": "^4.7.0"
+    }
+}
