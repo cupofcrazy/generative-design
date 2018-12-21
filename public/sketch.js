@@ -1,3 +1,7 @@
+/**
+ * Color change based on mouse position
+ */
+
 const config = {
     width: 400,
     height: 400
